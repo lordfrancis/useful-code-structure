@@ -13,6 +13,7 @@
 		handleAccordionClick: function() {
             // If accordion class is clicked, do function.
 			$(document).on('click', '.accordion', function() {
+				$(this).show();
                 // Insert code here.
 			});
 		},
